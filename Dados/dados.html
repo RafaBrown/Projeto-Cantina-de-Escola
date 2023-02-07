@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Cliente</title>i
+    <link rel="stylesheet" href="dados.css">
+</head>
+<body>
+    <div class="h1">
+    <h1> Consumidor</h1>
+    <h5>INFORME OS DADOS DO CONSUMIDOR</h5>
+    </div>
+    <div id="msgError"></div>
+    <div id="msgSuccess"></div>
+    <form action="" name="dados">
+    <div class="name">
+        <label id="labelnome" for="nome">Nome(Obrigatório)</label></br>
+        <input type="text"  id="nome" name="nome" autocomplete="off" ></br>
+    </div>
+    <div class="cpf">
+        <label id="labelcpf" for="cpf">CPF(Obrigatório)</label></br>
+        <input id="cpf" name="cpf" autocomplete="off" type="text"></br>
+    </div>
+    <div>
+        <button onclick="dadosCliente()">
+        Avançar
+        </button>
+    </div>
+    </form>
+    <div class="h4">
+    <h4 >identificar consumidor na nota</h4>
+    </div>
+<script src="dados.js"></script>
+</body>
+</html>
